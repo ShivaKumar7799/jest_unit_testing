@@ -1,11 +1,12 @@
 import './App.css';
-import Counter from './Components/Counter';
+import ReactJest from './Components/ReactJest';
 
 function App() {
   return (
     <>
       <h1> Testing Counter</h1>
-      <Counter />
+      <ReactJest />
+      {/* <Counter /> */}
     </>
   );
 }
